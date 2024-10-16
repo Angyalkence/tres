@@ -409,7 +409,7 @@ The `useRenderLoop` composable can be use for animations that don't require acce
 const { onLoop, resume } = useRenderLoop()
 
 onLoop(({ delta, elapsed, clock }) => {
-  // I will run at every frame ~60FPS (depending of your monitor)
+  // I will run at every frame ~60FPS (depending on your monitor)
 })
 ```
 
